@@ -146,22 +146,7 @@
         }
       }
 
-      function setupTheme() {
-        const savedTheme = localStorage.getItem("theme");
-        const prefersDark = window.matchMedia(
-          "(prefers-color-scheme: dark)"
-        ).matches;
-        const defaultTheme = savedTheme || (prefersDark ? "dark" : "light");
-        setTheme(defaultTheme);
-
-        const toggle = document.getElementById("theme-toggle");
-        if (toggle) {
-          toggle.addEventListener("click", () => {
-            const currentTheme = localStorage.getItem("theme") || "light";
-            setTheme(currentTheme === "dark" ? "light" : "dark");
-          });
-        }
-      }
+  
 
       function setMetaTags(data) {
         const pageTitle = `${data.settings.name} - ${data.settings.title}`;
@@ -542,7 +527,6 @@
     `;
 
           document.getElementById("app").innerHTML = content;
-          setupTheme();
 
           // JSON-LD Person schema
           try {
