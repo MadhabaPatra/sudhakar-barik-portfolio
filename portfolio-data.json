@@ -1,0 +1,189 @@
+{
+  "settings": {
+    "name": "Sudhakar Barik",
+    "title": ".NET Full Stack Developer",
+    "location": "India",
+    "summary": "Experienced .NET Full Stack Developer building production-grade web applications with expertise in C#, ASP.NET Core, and SQL.",
+    "profileImage": "https://media.licdn.com/dms/image/v2/D4D03AQF-uS0x_hPfMA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671526194131?e=1768435200&v=beta&t=g1NTXeuO1Awrzlpt2SvmzeR-Wm4A7ZjrrPbgbI2LwaQ"
+  },
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "ctaButtons": [
+        {
+          "text": "Get In Touch",
+          "url": "mailto:sudhakarbarik143@gmail.com"
+        },
+        {
+          "text": "View Resume",
+          "url": "#"
+        }
+      ]
+    },
+    "about": {
+      "enabled": true,
+      "skills": {
+        "enabled": true,
+        "title": "Technical Skills",
+        "items": [
+          "C#",
+          "JavaScript",
+          "TypeScript",
+          "SQL",
+          "HTML5",
+          "CSS3",
+          "ASP.NET Core",
+          "ASP.NET MVC",
+          "Web API",
+          "Entity Framework",
+          "ADO.NET",
+          "LINQ",
+          "Angular",
+          "jQuery",
+          "Bootstrap",
+          "AJAX",
+          "Razor Views",
+          "SQL Server",
+          "PostgreSQL",
+          "Oracle",
+          "Git",
+          "Jenkins",
+          "Visual Studio",
+          "VS Code",
+          "Postman",
+          "Swagger",
+          "IIS",
+          "RESTful APIs",
+          "Microservices",
+          "SOLID Principles",
+          "Unit Testing",
+          "Agile/Scrum"
+        ]
+      }
+    },
+    "experience": {
+      "enabled": true,
+      "title": "Work Experience",
+      "items": [
+        {
+          "company": "Pythus Info Pvt Ltd.",
+          "position": "Software Developer",
+          "period": "Sept, 2023 - Present",
+          "description": "Developed booking engine for flight, hotel, and package reservations using ASP.NET Core Web API with Entity Framework Code-First migrations. Integrated third-party APIs for real-time availability and pricing data with retry logic and caching. Built identity verification module using document OCR and face-matching services; reduced fraudulent bookings. Implemented AES-256 encryption for PII and PCI-compliant payment data storage; secured API endpoints with JWT authentication. Created responsive booking interfaces using Angular with lazy loading and optimized bundle sizes. Designed and maintained RESTful APIs for loan origination system handling application intake, credit scoring integration, and disbursement workflows. Integrated eNACH mandate registration, payment gateway APIs (Razorpay, PayU), and bank payout systems with transaction reconciliation. Built user onboarding flows with KYC verification, Aadhaar e-sign, and video-based authentication. Wrote stored procedures and optimized SQL queries reducing report generation time from 45 seconds to under 8 seconds. Participated in sprint planning, code reviews, and production deployments in Agile team. Built product catalog APIs with search, filtering, and pagination supporting 50K+ SKUs with sub-200ms response times. Developed inventory management module with real-time stock updates and low-stock alerting via background services. Created hotel room availability engine with date-range queries and dynamic pricing logic based on occupancy."
+        }
+      ]
+    },
+    "projects": {
+      "enabled": true,
+      "title": "Featured Projects",
+      "items": [
+        {
+          "title": "TravelXpert – Travel Management Platform",
+          "description": "Developed a booking engine for flight, hotel, and package reservations using ASP.NET Core Web API with Entity Framework Code-First migrations. Integrated third-party APIs for real-time availability and pricing data with retry logic and caching. Built identity verification module using document OCR and face-matching services; reduced fraudulent bookings. Implemented AES-256 encryption for PII and PCI-compliant payment data storage; secured API endpoints with JWT authentication. Created responsive booking interfaces using Angular with lazy loading and optimized bundle sizes.",
+          "tags": [
+            "ASP.NET Core",
+            "Entity Framework",
+            "Angular",
+            "Web API",
+            "JWT"
+          ],
+          "previewUrl": "#",
+          "repoUrl": "#"
+        },
+        {
+          "title": "Fintech & NBFC Solutions – Multiple Clients",
+          "description": "Designed and maintained RESTful APIs for loan origination system handling application intake, credit scoring integration, and disbursement workflows. Integrated eNACH mandate registration, payment gateway APIs (Razorpay, PayU), and bank payout systems with transaction reconciliation. Built user onboarding flows with KYC verification, Aadhaar e-sign, and video-based authentication. Wrote stored procedures and optimized SQL queries reducing report generation time from 45 seconds to under 8 seconds. Participated in sprint planning, code reviews, and production deployments in Agile team.",
+          "tags": [
+            "RESTful APIs",
+            "SQL",
+            "Fintech",
+            "Agile"
+          ],
+          "previewUrl": "#",
+          "repoUrl": "#"
+        },
+        {
+          "title": "E-commerce & Hotel Booking Platforms",
+          "description": "Built product catalog APIs with search, filtering, and pagination supporting 50K+ SKUs with sub-200ms response times. Developed inventory management module with real-time stock updates and low-stock alerting via background services. Created hotel room availability engine with date-range queries and dynamic pricing logic based on occupancy.",
+          "tags": [
+            "E-commerce",
+            "APIs",
+            "Inventory Management",
+            "Hotel Booking"
+          ],
+          "previewUrl": "#",
+          "repoUrl": "#"
+        }
+      ]
+    },
+    "education": {
+      "enabled": true,
+      "title": "Education",
+      "items": [
+        {
+          "institution": "Berhampur University",
+          "degree": "Bachelor of Science in Computer Science",
+          "period": "2018 - 2021"
+        }
+      ]
+    },
+    "achievements": {
+      "enabled": true,
+      "title": "Achievements & Certifications",
+      "items": [
+        {
+          "title": ".NET Full Stack Development",
+          "description": "Naresh IT, Hyderabad (C#, ASP.NET, SQL Server, JavaScript, HTML/CSS)"
+        }
+      ]
+    },
+    "contact": {
+      "enabled": true,
+      "title": "Contact",
+      "email": "sudhakarbarik143@gmail.com",
+      "phone": "+91 9348625939",
+      "location": "India"
+    },
+    "social": {
+      "enabled": true,
+      "items": []
+    },
+    "navigation": {
+      "enabled": true,
+      "items": [
+        {
+          "name": "Home",
+          "url": "/"
+        },
+        {
+          "name": "About",
+          "url": "#about"
+        },
+        {
+          "name": "Projects",
+          "url": "#projects"
+        },
+        {
+          "name": "Experience",
+          "url": "#experience"
+        },
+        {
+          "name": "Education",
+          "url": "#education"
+        },
+        {
+          "name": "Contact",
+          "url": "#contact"
+        }
+      ]
+    },
+    "footer": {
+      "enabled": true,
+      "copyright": "© 2025 Sudhakar Barik. All rights reserved."
+    }
+  },
+  "footer": {
+    "enabled": true,
+    "copyright": ""
+  }
+}
